@@ -1,0 +1,8 @@
+cat dev/before > bin/bot
+echo " " >> bin/bot
+echo " " >> bin/bot
+cat cmds.py >> bin/bot
+echo " " >> bin/bot
+echo " " >> bin/bot
+cat dev/after >> bin/bot
+chmod +x bin/bot
